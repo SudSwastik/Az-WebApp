@@ -12,7 +12,7 @@ $ az appservice plan create -l centralus -g <name-of-resource-group> -n <name-of
 
 >Create a Web App In the App Plan
 ```
-$ az webapp create -l centralus -g <name-of-resource-group> --plan <name-of-webapp-plan> -n <name-of-webapp>
+$ az webapp create -g <name-of-resource-group> --plan <name-of-webapp-plan> -n <name-of-webapp>
 ```
 
 >Deployment Of Project To Web App
